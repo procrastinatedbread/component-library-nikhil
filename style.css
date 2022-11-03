@@ -1,0 +1,71 @@
+/* AVATAR */
+
+.avatar-75 {
+  --avatar-size: 75px;
+}
+.avatar-200 {
+  --avatar-size: 200px;
+}
+
+.avatar {
+  /* for circle */
+  height: var(--avatar-size);
+  width: var(--avatar-size);
+  background-color: indianred;
+  border-radius: 50%;
+  border: 1px solid black;
+  /* for initials */
+  color: rgb(43, 29, 29);
+  font-size: 40px;
+  font-weight: bold;
+  /* for centering the intials */
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+}
+.avatar-picture {
+  color: transparent;
+  background: url(./avatar.svg);
+  background-position: center;
+  background-size: cover;
+}
+/* :hover > .avatar-picture {
+  border: 6px solid blue;
+} */
+
+/* AVATAR */
+
+/* ALERT */
+/* https://www.w3schools.com/howto/howto_js_alert.asp */
+
+.alert {
+  background-color: red;
+  padding: 20px;
+  margin: 10px;
+  color: white;
+  border: 1px solid black;
+  opacity: 1;
+  transition: opacity 0.3s;
+}
+.closebtn {
+  float: right;
+  font-size: larger;
+  cursor: pointer;
+}
+.closebtn:hover {
+  color: black;
+}
+.alert-danger {
+  background-color: red;
+}
+.alert-success {
+  background-color: rgb(53, 153, 53);
+}
+.alert-info {
+  background-color: rgb(94, 94, 231);
+}
+.alert-warning {
+  background-color: rgb(177, 177, 22);
+}
+
+/* ALERT */
