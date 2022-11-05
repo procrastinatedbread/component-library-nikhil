@@ -6,6 +6,16 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Component Library</title>
     <link rel="stylesheet" href="style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v5.15.4/css/all.css"
+      integrity="sha384-DyZ88mC6Up2uqS4h/KRgHuoeGwBcD4Ng9SiP4dIRy0EXTlnuz47vAwmeGwVChigm"
+      crossorigin="anonymous"
+    />
   </head>
   <body>
     <!-- AVATAR -->
@@ -13,11 +23,11 @@
     <h1>Avatar with initials</h1>
     <div class="avatar">NC</div>
     <h1>Avatar with a picture</h1>
-    <div class="avatar avatar-picture">NC</div>
+    <div class="avatar-picture avatar"></div>
     <h1>Avatar 75px</h1>
-    <div class="avatar avatar-picture avatar-75">NC</div>
+    <div class="avatar-picture avatar avatar-75"></div>
     <h1>Avatar 200px</h1>
-    <div class="avatar avatar-picture avatar-200">NC</div>
+    <div class="avatar-picture avatar avatar-200"></div>
     <!-- AVATAR -->
     <hr />
     <!-- ALERT -->
@@ -49,6 +59,77 @@
     </div>
     <hr />
     <!-- ALERT -->
-    <!--  -->
+    <!-- BADGE -->
+    <h1>BADGES</h1>
+    <h3>Badge heading <span class="badge">New</span></h3>
+    <h1>BADGES ON ICONS</h1>
+    <div class="icon"><span class="badge badge-icon">New</span></div>
+    <h1>BADGES ON AVATARS</h1>
+    <div class="avatar avatar-picture avatar-75">
+      <span class="badge badge-avatar">New</span>
+    </div>
+
+    <hr />
+
+    <!-- BADGE -->
+    <!-- BUTTON -->
+    <h1>BUTTONS</h1>
+    <button id="sample">Sample Button</button>
+
+    <hr />
+    <!-- BUTTON -->
+    <!--  PRIMARY LINK  -->
+    <h1>PRIMARY LINK</h1>
+    <a href="#" class="link-primary">Primary Link</a>
+    <hr />
+    <!--  PRIMARY LINK  -->
+    <!-- ICON BUTTON -->
+    <h1>ICON BUTTONS WITH TEXT</h1>
+    <button class="btn"><i class="fa fa-home"></i>Home</button>
+    <button class="btn"><i class="fa fa-bars"></i>Menu</button>
+    <button class="btn"><i class="fa fa-trash"></i>Trash</button>
+    <button class="btn"><i class="fa fa-close"></i>Close</button>
+    <button class="btn"><i class="fa fa-folder"></i>Folder</button>
+    <hr />
+    <!-- ICON BUTTON -->
+    <!-- Floating action buttons -->
+
+    <h3>@Floating action buttons</h3>
+    <div class="fab-container">
+      <div class="fab fab-icon-holder">
+        <i class="fas fa-question"></i>
+      </div>
+
+      <ul class="fab-options">
+        <li>
+          <span class="fab-label">Documentation</span>
+          <div class="fab-icon-holder">
+            <i class="fas fa-file-alt"></i>
+          </div>
+        </li>
+        <li>
+          <span class="fab-label">Video Tutorials</span>
+          <div class="fab-icon-holder">
+            <i class="fas fa-video"></i>
+          </div>
+        </li>
+        <li>
+          <span class="fab-label">Live chat</span>
+          <div class="fab-icon-holder">
+            <i class="fas fa-comments"></i>
+          </div>
+        </li>
+        <li>
+          <span class="fab-label">Feedback</span>
+          <div class="fab-icon-holder">
+            <i class="fas fa-comment-alt"></i>
+          </div>
+        </li>
+      </ul>
+    </div>
+
+    <hr />
+
+    <!-- Floating action buttons -->
   </body>
 </html>

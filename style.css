@@ -1,16 +1,19 @@
 /* AVATAR */
 
 .avatar-75 {
-  --avatar-size: 75px;
+  height: 75px !important;
+  width: 75px !important;
 }
 .avatar-200 {
-  --avatar-size: 200px;
+  height: 200px !important;
+  width: 200px !important;
 }
 
 .avatar {
   /* for circle */
-  height: var(--avatar-size);
-  width: var(--avatar-size);
+  height: 90px;
+  width: 90px;
+
   background-color: indianred;
   border-radius: 50%;
   border: 1px solid black;
@@ -24,11 +27,19 @@
   align-items: center;
 }
 .avatar-picture {
-  color: transparent;
+  border: 1px solid black;
   background: url(./avatar.svg);
   background-position: center;
   background-size: cover;
+  position: relative;
 }
+.badge-avatar {
+  font-size: 14px;
+  position: absolute;
+  left: 45px;
+  top: 0px;
+}
+
 /* :hover > .avatar-picture {
   border: 6px solid blue;
 } */
@@ -69,3 +80,138 @@
 }
 
 /* ALERT */
+/* Badge */
+.badge {
+  background-color: red;
+  color: white;
+  padding: 4px 8px;
+  border: 1px solid black;
+  border-radius: 10px;
+}
+.badge-icon {
+  position: absolute;
+  left: 45px;
+}
+/* ICON */
+.icon {
+  background: url(./IMG-20211209-WA0012-01-02.jpeg);
+  height: 75px;
+  width: 75px;
+  border-radius: 50%;
+  border: 1px solid black;
+  background-position: center;
+  background-size: cover;
+  position: relative;
+}
+
+/* ICON */
+/* Badge */
+
+/* Button */
+#sample {
+  background-color: black;
+  color: white;
+  padding: 6px 7px;
+  border-radius: 6px;
+}
+/* Button */
+/* Primary Link */
+.link-primary {
+  text-decoration: none;
+  color: black;
+}
+.link-primary:hover {
+  text-decoration: underline;
+  color: blue;
+}
+/* Primary Link */
+/* Icon buttons */
+/* https://www.w3schools.com/howto/howto_css_icon_buttons.asp */
+.btn {
+  background-color: black;
+  color: white;
+  padding: 10px 15px;
+  margin: 5px;
+}
+
+/* Icon buttons */
+
+/* FLOATING ACTION BUTTONS */
+
+.fab-container {
+  position: fixed;
+  bottom: 50px;
+  right: 50px;
+  z-index: 999;
+  cursor: pointer;
+}
+
+.fab-icon-holder {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  background: #016fb9;
+
+  box-shadow: 0 6px 20px rgba(0, 0, 0, 0.2);
+}
+
+.fab-icon-holder:hover {
+  opacity: 0.8;
+}
+
+.fab-icon-holder i {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  height: 100%;
+  font-style: 25px;
+  color: #ffffff;
+}
+
+.fab {
+  width: 60px;
+  height: 60px;
+  background: #d23f31;
+}
+
+.fab-options {
+  list-style-type: none;
+  margin: 0;
+  position: absolute;
+  bottom: 70px;
+  right: 0;
+
+  opacity: 0;
+
+  transition: all 0.3s ease;
+  transform: scale(0);
+  transform-origin: 85% bottom;
+}
+
+.fab:hover + .fab-options,
+.fab-options:hover {
+  opacity: 1;
+  transform: scale(1);
+}
+
+.fab-options li {
+  display: flex;
+  justify-content: flex-end;
+  padding: 5px;
+}
+
+.fab-label {
+  padding: 2px 5px;
+  align-self: center;
+  user-select: none;
+  white-space: nowrap;
+  border-radius: 3px;
+  font-size: 16px;
+  background: #666666;
+  color: #ffffff;
+  box-shadow: 0 6px 20px rgba(0, 0, 0, 0.2);
+  margin-right: 10px;
+}
+
+/* FLOATING ACTION BUTTONS */
