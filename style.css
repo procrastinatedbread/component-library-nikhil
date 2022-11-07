@@ -215,3 +215,190 @@
 }
 
 /* FLOATING ACTION BUTTONS */
+
+/* CARDS */
+.card {
+  width: 20%;
+  border: 1px solid black;
+  border-radius: 5px;
+}
+
+.card-image img {
+  width: 100%;
+}
+.card-title {
+  text-align: center;
+}
+.card-description {
+  text-align: center;
+}
+.card-description button {
+  background-color: white;
+  border: 1px solid black;
+  margin: 7px;
+}
+/* CARDS */
+
+/* CARDS WITH A BADGE */
+.card {
+  width: 20%;
+  border: 1px solid black;
+  border-radius: 5px;
+  position: relative;
+}
+.card-badge {
+  background-color: red;
+  color: white;
+  padding: 7px 10px;
+  border: 1px solid black;
+  border-radius: 10px;
+  position: absolute;
+  top: 0px;
+  left: 85%;
+}
+.card-image img {
+  width: 100%;
+}
+.card-title {
+  text-align: center;
+}
+.card-description {
+  text-align: center;
+}
+.card-description button {
+  background-color: white;
+  border: 1px solid black;
+  margin: 7px;
+}
+/* CARDS WITH A BADGE */
+
+/* CARDS WITH A DISMISS */
+.card {
+  width: 20%;
+  border: 1px solid black;
+  border-radius: 5px;
+  position: relative;
+}
+.card-closebtn {
+  color: #666666;
+
+  font-size: 50px;
+  cursor: pointer;
+  position: absolute;
+  top: -10px;
+  left: 90%;
+}
+.card-closebtn:hover {
+  color: red;
+}
+
+.card-image img {
+  width: 100%;
+}
+.card-title {
+  text-align: center;
+}
+.card-description {
+  text-align: center;
+}
+.card-description button {
+  background-color: white;
+  border: 1px solid black;
+  margin: 7px;
+}
+/* CARDS WITH A DISMISS */
+/* CARDS WITH OVERLAY */
+.card-overlay {
+  width: 20%;
+
+  border: 1px solid black;
+  border-radius: 5px;
+  background: url(./IMG-20211209-WA0012-01-02.jpeg);
+  background-position: center;
+  background-size: cover;
+}
+.card-overlay-title {
+  text-align: center;
+  color: rgb(198, 191, 191);
+}
+.card-overlay-description {
+  text-align: center;
+  font-size: larger;
+  color: white;
+}
+.card-overlay-description button {
+  color: white;
+  background-color: #666666;
+  padding: 6px 6px;
+  margin-bottom: 20px;
+}
+/* CARDS WITH OVERLAY */
+/* CARDS WITH A SHADOW */
+.shadow-card {
+  width: 20%;
+  border: 1px solid black;
+  border-radius: 5px;
+  box-shadow: 10px 4px 8px rgb(114, 112, 112);
+}
+
+.card-image img {
+  width: 100%;
+}
+.card-title {
+  text-align: center;
+}
+.card-description {
+  text-align: center;
+}
+.card-description button {
+  background-color: white;
+  border: 1px solid black;
+  margin: 7px;
+}
+
+/* CARDS WITH A SHADOW */
+/* RESPONSIVE IMAGE */
+/* https://www.w3schools.com/howto/howto_css_image_responsive.asp */
+
+.responsive {
+  width: 100%;
+  height: auto;
+}
+/* RESPONSIVE IMAGE */
+/* ROUND IMAGE */
+.round-image {
+  width: 30%;
+  background-position: center;
+  background-size: cover;
+  border-radius: 50%;
+}
+/* ROUND IMAGE */
+/* INPUT TEXTBOX */
+.text-area-main {
+  display: inline-block;
+  background-color: #666666;
+}
+/* INPUT TEXTBOX */
+/* VALIDATION FORM */
+.input-form {
+  background-color: #666666;
+  margin: 0px 15px;
+}
+.email-input {
+  display: block;
+  margin: 10px;
+  padding: 10px 15px;
+}
+.password-input {
+  display: block;
+  margin: 10px;
+  padding: 10px 15px;
+}
+.input-form-login {
+  display: block;
+  padding: 5px 5px;
+  border: 1px solid black;
+  border-radius: 5px;
+  margin: 0px 60px;
+}
+/* VALIDATION FORM */
