@@ -422,3 +422,93 @@
   font-size: 0.75em;
 }
 /* HEADINGS */
+/* TEXT SIZES */
+.large-text {
+  font-size: 1.5em;
+}
+.medium-text {
+  font-size: 1.17em;
+}
+.regular-text {
+  font-size: 1em;
+}
+.small-text {
+  font-size: 0.75em;
+}
+/* TEXT SIZES */
+/* TEXT WEIGHTS */
+.light-text {
+  font-weight: 300;
+}
+.regular-text {
+  font-weight: 500;
+}
+.semibold-text {
+  font-weight: 700;
+}
+.bold-text {
+  font-weight: 900;
+}
+.black-text {
+  font-weight: 900;
+}
+/* TEXT WEIGHTS */
+.gray-text {
+  color: #666666;
+}
+
+.strikethrough-text {
+  text-decoration: line-through;
+}
+
+.center-text {
+  text-align: center;
+}
+.right-text {
+  text-align: right;
+}
+
+.checked {
+  color: orange;
+}
+.grid-two-container {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 20px;
+}
+.grid-three-container {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 20px;
+}
+.grid-container-children {
+  background-color: #d23f31;
+  color: white;
+  padding: 10px 10px;
+  border: 1px solid black;
+}
+
+.nav-container {
+  list-style: none;
+  display: flex;
+  background-color: cadetblue;
+}
+.nav-container h1 {
+  margin-right: auto;
+}
+
+.nav-items {
+  padding-right: 70px;
+  padding-top: 30px;
+}
+.nav-items .nav-search {
+}
+.nav-items a {
+  text-decoration: none;
+  color: aliceblue;
+  font-weight: 500;
+  font-size: larger;
+}
+.nav-items a:hover {
+  color: black;
+}
