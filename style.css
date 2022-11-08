@@ -453,6 +453,7 @@
   font-weight: 900;
 }
 /* TEXT WEIGHTS */
+/* TEXT DECORATIONS AND ALIGNMENTS */
 .gray-text {
   color: #666666;
 }
@@ -467,10 +468,14 @@
 .right-text {
   text-align: right;
 }
+/* TEXT DECORATIONS AND ALIGNMENTS */
+/* RATINGS */
 
 .checked {
   color: orange;
 }
+/* RATINGS */
+/* GRID LAYOUT */
 .grid-two-container {
   display: grid;
   grid-template-columns: 1fr 1fr;
@@ -487,6 +492,8 @@
   padding: 10px 10px;
   border: 1px solid black;
 }
+/* GRID LAYOUT */
+/* NAVIGATION BAR */
 
 .nav-container {
   list-style: none;
@@ -501,8 +508,7 @@
   padding-right: 70px;
   padding-top: 30px;
 }
-.nav-items .nav-search {
-}
+
 .nav-items a {
   text-decoration: none;
   color: aliceblue;
@@ -512,3 +518,4 @@
 .nav-items a:hover {
   color: black;
 }
+/* NAVIGATION BAR */
